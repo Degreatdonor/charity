@@ -70,6 +70,9 @@ text-align: right;
 }
 .text-box h1{
 	font-size: 67px;
+	color: green;
+	font-family: san serifs;
+	font-style: normal;
 }
 .text-box p{
 	margin: 10px 0 40px;
