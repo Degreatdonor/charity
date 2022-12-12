@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="home.css"></link>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <script src="index.js"></script>
     <section class="header">
         <nav>
-            <a href="index.html"></a>
-            <div class="nav-links">
+            <a href="index.html"><img src="images/donor1.jpg" style="width: 170px; height: 150px;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
+                    <li><a href="otherfounders.html">Other Founders</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="founders.html">Founders</a></li>
                     <li><a href="news.html">News</a></li>
                     <li><a href="contact.html">Contacts</a></li>
                 </ul>
-        </div> 
-
-    
+            </div>
+                <i class="fa fa-bars" onclic k="showMenu()"></i>
+        </nav>      
+               
+     
+        <div class="text-box">
+		<h1 class="hh">De Great Donor Africa</h1>
+        <p>De Great Donor Africa is a non-profit, non-racial,non-denominational, non-discriminating and independent charitable enterprice envisioned to rendering tangible and intangible support to the eligible persons or group of people.It was founded by Otim Ronald in 1999 and officially launced in 2014.Its headquarters in Lira city, Uganda and we are establishing several branches in all African States.We are also act in upbringing individuals from disadvantaged homes and societies through engaging them in entrepreneurial training, leadership empowerment and all-round life skills to enhance a positive and standard living.We strongly believe in eguality for all where we embrace only one language and that is "Oneness" with the argument that we do not give because we have much but because of the pain of not having it.</p>
+        <a href="signup.html" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
 </body>
 </html>
