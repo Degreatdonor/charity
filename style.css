@@ -171,10 +171,11 @@ text-align: right;
 	}
 	nav.fa{
 		display: none; 
-		color: #fff;
+		color: green;
 		margin: 10px;
 		font-size: 22px;
 		cursor: pointer;
+		padding-bottom: 10px;
 
 	}
 	.row{
