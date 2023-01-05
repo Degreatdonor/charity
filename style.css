@@ -166,8 +166,9 @@ text-align: right;
 		top: 0;
 		right: 0;
 		text-align: left;
-		z-index: 2;
+		z-index: 1;
 		transition: 0.5s;
+		padding-bottom: 10px;
 	}
 	nav.fa{
 		display: none; 
